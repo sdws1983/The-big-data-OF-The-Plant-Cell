@@ -3,6 +3,10 @@
 from bs4 import BeautifulSoup
 import urllib2
 import re
+from pdf_read import *
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 def get_html(url):
 	send_headers = {
@@ -20,18 +24,21 @@ def get_html(url):
 
 def analyse(html):
 	soup = BeautifulSoup(html,'lxml')
+	contents = []
 	for i in soup.find_all('p'):
 		#print (i.string)
 		try:
-			if i['id'] == "p-5":
+			if u"p-" in str(i['id']):
 				#print (str(i))
 				#print (str(str(i).find(">") + 1))
 				#print (str(i).find("<", str(i).find(">") + 1))
 				content = str(i)[(str(i).find(">") + 1):(str(i).find("</p>", str(i).find(">") + 1))]
+				#print (content)
 				content = re.sub(r'<.*?>', '', str(content))
 				content = re.sub(r'\n', ' ', str(content))
 				content = re.sub(r' +', ' ', str(content))
-				#print (content)
+				if len(content) > 250:
+					contents.append(content)
 		except:
 			pass
 	
@@ -46,29 +53,56 @@ def analyse(html):
 
 			elif 'aff' in each['class']:
 				address = str(each.find_all('address')[0])
-				address = address[(address.find('</sup>') + len('</sup>')):(address.find('\n'))]
+				address = re.sub(r'<.*?>', '', str(address))
+				address = re.sub(r' +', ' ', str(address))
+				address = re.sub(r'\n', '', str(address))
+				if re.findall('[a-z]', address[0]):
+					address = address[1:]
 				address = (str(count) + "\t" + address + "\n")
 				address_list.append(address)
 				count += 1
 		except:
 			pass
 	
-	return  content, ''.join(author_list), ''.join(address_list)
+	if len(contents) > 2:
+		print ("content error")
+		contents = []
+		address_list = []
+		author_list = []
+
+	return ''.join(contents), ''.join(author_list), ''.join(address_list)
 
 def main(vol,page):
-	url = "http://www.plantcell.org/content/28/" + str(vol) + "/" + str(page) + ".abstract"
 
+	url = "http://www.plantcell.org/content/28/" + str(vol) + "/" + str(page) + ".abstract"
+	#print (url)
 	html = get_html(url)
 	content, author, address = analyse(html)
 	f1 = open((str(vol) + '-content.csv'), 'a')
 	f2 = open((str(vol) + '-author.csv'), 'a')
 	f3 = open((str(vol) + '-address.csv'), 'a')
-	f1.write(content + "\n")
-	f2.write(author + "\n")
-	f3.write(address + "\n")
+	if content[-1] != "\n":
+		content = content + "\n"
+	if author[-1] != "\n":
+		author = author + "\n"
+	if address[-1] != "\n":
+		address = address + "\n"
+
+	f1.write(">" + str(page) + "\n" + content)
+	f2.write(">" + str(page) + "\n" + author)
+	f3.write(">" + str(page) + "\n" + address)
 
 if __name__ == "__main__":
-	main(11, 2715)
+	for iss in range(1,12):
+		all = get_issues(iss)
+		print ("vol:" + str(iss))
+		for i in all:
+			print (i)
+			try:
+				main(iss, i)
+			except Exception, e:
+				print (e)
+
 
 
 
