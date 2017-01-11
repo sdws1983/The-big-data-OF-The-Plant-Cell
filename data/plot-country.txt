@@ -1,0 +1,26 @@
+country	count
+United States	41
+China 	28
+Germany 	15
+Japan 	13
+France 	11
+Switzerland 	9
+United Kingdom 	8
+Belgium 	7
+Australia 	5
+Spain 	4
+Korea 	4
+Taiwan 	4
+Israel 	4
+Denmark 	2
+Sweden 	2
+Canada 	2
+India 	2
+Estonia 	1
+Poland 	1
+Argentina 	1
+Saudi Arabia 	1
+Italy 	1
+Portugal 	1
+Mexico 	1
+The Netherlands 	1

@@ -1,0 +1,46 @@
+	a	b
+0	United States	41
+29	China 	28
+35	Germany 	15
+17	Japan 	13
+25	France 	11
+6	Switzerland 	9
+43	United Kingdom 	8
+34	Belgium 	7
+26	Australia 	5
+37	Spain 	4
+32	Korea 	4
+30	Taiwan 	4
+22	Israel 	4
+18	Denmark 	2
+14	Sweden 	2
+15	Canada 	2
+20	India 	2
+41	Estonia 	1
+40	Poland 	1
+5	Argentina 	1
+11	Saudi Arabia 	1
+9	Italy 	1
+28	Portugal 	1
+23	Mexico 	1
+21	The Netherlands 	1
+
+'''United States'''
+0	Kentucky 	1
+7	California 	6
+38	Michigan 	4
+36	Ohio 	4
+1	Texas 	4
+33	Missouri 	3
+2	Minnesota 	3
+24	Florida 	2
+31	Indiana 	2
+39	New York 	2
+42	Iowa 	2
+19	Pennsylvania 	2
+8	Wisconsin 	1
+4	Vermont 	1
+16	Oregon 	1
+10	Arizona 	1
+12	Maryland 	1
+13	Oklahoma 	1

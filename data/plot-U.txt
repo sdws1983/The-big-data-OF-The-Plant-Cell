@@ -1,0 +1,31 @@
+a	b
+Chinese Academy of Sciences	7
+VIB	6
+Universit¨¦ Paris-Saclay	5
+Huazhong Agricultural University	4
+Peking University	3
+University of Minnesota	3
+University of Geneva	3
+Michigan State University	3
+Academia Sinica	2
+The University of Tokyo	2
+Ludwig-Maximilians-Universit?t M¨¹nchen	2
+University of Florida	2
+Norwich Research Park	2
+The Ohio State University	2
+Nagoya University	2
+KAIST	2
+Donald Danforth Plant Science Center	2
+University of Copenhagen	2
+University of Pennsylvania	2
+Purdue University	2
+Kyoto University	2
+University of Tokyo	2
+Texas A&amp;M University	2
+Swedish University of Agricultural Sciences	2
+Tsinghua University	2
+Fudan University	2
+China Agricultural University	2
+University of Cambridge	2
+Zhejiang University	2
+National Taiwan University	2

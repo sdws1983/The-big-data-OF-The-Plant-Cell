@@ -1,0 +1,169 @@
+	a	b
+133	Chinese Academy of Sciences	7
+39	VIB	6
+103	Université Paris-Saclay	5
+157	Huazhong Agricultural University	4
+170	Peking University	3
+40	University of Minnesota	3
+22	University of Geneva	3
+137	Michigan State University	3
+85	Academia Sinica	2
+86	The University of Tokyo	2
+165	Ludwig-Maximilians-Universität München	2
+151	University of Florida	2
+47	Norwich Research Park	2
+28	The Ohio State University	2
+54	Nagoya University	2
+73	KAIST	2
+71	Donald Danforth Plant Science Center	2
+146	University of Copenhagen	2
+70	University of Pennsylvania	2
+144	Purdue University	2
+49	Kyoto University	2
+32	University of Tokyo	2
+187	Texas A&amp;M University	2
+98	Swedish University of Agricultural Sciences and Linnean Center for Plant Biology	2
+13	Tsinghua University	2
+14	Fudan University	2
+115	China Agricultural University	2
+96	University of Cambridge	2
+67	Zhejiang University	2
+173	National Taiwan University	2
+134	Shanghai Jiao Tong University	1
+138	The Australian National University	1
+109	Nanjing Agricultural University	1
+110	Shandong Agricultural University	1
+113	University of Warsaw	1
+135	South China Normal University	1
+116	Université d’Angers	1
+132	University of Maryland	1
+131	Clermont Université	1
+122	Westfälische Wilhelms-Universität Münster	1
+123	Iowa State University	1
+118	University of Fribourg	1
+126	ETH Zurich	1
+129	University of California	1
+164	National Sub-Center of Rapeseed Improvement in Wuhan	1
+167	Dr. Héctor Torres (INGEBI-CONICET)	1
+169	Givat-Ram	1
+171	Universidad Nacional Autónoma de México	1
+172	Miami University	1
+174	Shandong Normal University	1
+175	Division of Biological Sciences	1
+177	Australian National University	1
+178	Molekularbiologie der Pflanzen (Botanik)	1
+179	CSIC-UAM	1
+180	University of Kentucky	1
+181	CSIC	1
+183	Génétique	1
+184	Cuernavaca	1
+185	Buk-Gu	1
+186	King Abdullah University of Science and Technology	1
+188	Growth and Development	1
+189	New York University	1
+166	RIKEN Center for Sustainable Resource Science	1
+163	Martin Luther University Halle-Wittenberg	1
+141	Plant Gene Expression Center	1
+162	Centro de Investigaciones Biológicas	1
+142	University of Adelaide	1
+143	Center for Evolutionary Biology	1
+145	Shanghai Jiao Tong University-University of Adelaide Joint Centre for Agriculture and Health	1
+147	Plant Systems Biology	1
+148	Division of Plant Science	1
+149	Australian Centre for Plant Functional Genomics	1
+150	Peking-Tsinghua Center for Life Sciences	1
+107	Plant Biology Division	1
+152	INSERM U 	1
+153	Furo-cho	1
+154	Sorbonne Universités	1
+155	The Samuel Roberts Noble Foundation	1
+156	    -  Takayama	1
+158	Biologie Végétale et Microbiologie Environnementales UMR 	1
+159	Reproduction et Développement	1
+160	University Bayreuth	1
+161	Section of Cell and Developmental Biology	1
+108	Aruna Asaf Ali Marg	1
+95	Sakyo-ku	1
+106	Kyushu University	1
+29	University of Missouri-Columbia	1
+31	Hangzhou	1
+33	Università degli Studi di Milano	1
+34	Development and Cell Biology	1
+35	Hokkaido University	1
+36	Faculty of Science	1
+37	Chonnam National University	1
+38	Heinrich Heine University	1
+41	Georg-August-University Göttingen	1
+42	UMR 	1
+43	University of Toronto	1
+44	Biozentrum	1
+45	Plant Stress and Germplasm Development Unit	1
+46	Molecular	1
+48	Computational and Systems Biology and Crop Genetics	1
+50	Pozuelo de Alarcón	1
+51	Ohio State University	1
+52	Sciences III	1
+30	University of Paris-Saclay	1
+27	University of California Davis	1
+55	Nishi-ku	1
+25	Departamento de Biología Molecular de Plantas	1
+2	SFR      QUASAV	1
+4	Université Grenoble Alpes	1
+5	University of Tübingen	1
+6	CSIRO Agriculture	1
+7	INRA AgroParisTech CNRS	1
+8	UPR 	1
+9	Toronto	1
+10	Cell and Developmental Biology	1
+11	Oregon State University	1
+12	IFAS	1
+15	University of Neuchâtel	1
+16	Freie Universität Berlin	1
+17	CAS Center for Excellence in Molecular Plant Sciences	1
+20	Agrocampus Ouest	1
+21	Departamento de Biología Medioambiental	1
+23	University of Edinburgh	1
+24	University of Michigan	1
+53	Division of Integrative Biosciences and Biotechnology	1
+56	Consejo Superior de Investigaciones Científicas-Universidad Politécnica de Valencia	1
+105	UPMC	1
+81	Ikoma	1
+83	University of Zurich	1
+84	UMR CNRS 	1
+87	University of Tasmania	1
+88	Plant Molecular and Cellular Biology Program	1
+89	Pohang University of Science and Technology	1
+90	University of Leeds	1
+91	Dahlem Centre of Plant Sciences	1
+92	Dipartimento di BioScienze	1
+93	University of British Columbia	1
+94	University of Wisconsin	1
+1	Food	1
+97	Centro de Biología Molecular Severo Ochoa	1
+99	Aix Marseille University	1
+100	Center for Plant Molecular Biology (ZMBP)	1
+101	National Center for Evaluation of Agricultural Wild Plants (Rice)	1
+102	Centre for Plant Sciences	1
+104	University of Lausanne	1
+82	Technische Universität München	1
+80	DuPont Pioneer	1
+57	and Developmental Biology Program	1
+79	Hebrew University	1
+58	Motooka	1
+59	Jiangsu Plant Gene Engineering Research Center	1
+60	The University of Texas at Austin	1
+61	IRHS	1
+62	University of Vermont	1
+63	University of Zürich	1
+64	University of Essex	1
+65	VU University	1
+66	Hobart	1
+68	Plant Physiology	1
+69	University of Tartu	1
+72	Plant Sciences Unit	1
+74	The Hebrew University of Jerusalem	1
+75	University of Arizona	1
+76	University of California San Diego	1
+77	Molekulare Pflanzenwissenschaften	1
+78	Kumamoto University	1
+190	Faculty of Biology	1
