@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python
 
 import sys, getopt
 import re
@@ -17,7 +17,7 @@ def get_option():
 		elif op == "-o":
 			output_file = value
 		elif op == "-h":
-			h = 'useages:'
+			h = 'useages:\nremove the sequence which contain "N"\n-i : inputfile\n-o : outputfile\n'
 	return input_file,output_file,h
 
 def main(input_file, output_file):
@@ -37,16 +37,14 @@ def main(input_file, output_file):
 #				each = re.sub(r'-', ' ', str(each))#  country
 
 				each = re.sub(r'\s+$', ' ', str(each))
-
 ####################
 # University, etc. #
 ####################
-				if u'Department' in each or u'College' in each or u'School' in each or u'Institute' in each or u'Laboratory' in each:
+				if u'Department' in each or u'College' in each or u'School' in each or u'Institut' in each or u'Laborato'.lower() in each.lower():
 					pass
-				else:
+				else:	
 					all.append(each)
-
-#				all.append(each)#  country
+				
 
 	tag_all = {}
 	for each in all:
